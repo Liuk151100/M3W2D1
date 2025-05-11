@@ -1,0 +1,110 @@
+.row {
+    justify-content: space-evenly;
+}
+
+.navbar {
+    background-color: black !important;
+
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-brand {
+    width: 100px !important;
+    height: 40px;
+    padding: 0 !important;
+}
+
+.navbar-brand>img {
+    width: 100%;
+    height: 50%;
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.card {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card>img {
+    border-radius: 10px;
+}
+
+.navbar-toggler-icon {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url(FONTS/circular-std-medium-500.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CustomFont1';
+    src: url(FONTS/Spotify-Font/Gotham-Bold.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#spotifyButton {
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'CustomFont', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 270px;
+}
+
+#spotifyButton img {
+    width: 80px;
+    height: auto;
+}
+
+#spotifyButton span:nth-of-type(2) {
+    font-family: 'CustomFont1', sans-serif;
+    color: rgb(81 214 81);
+    font-size: 1.5em;
+}
+
+
+#albumImg img {
+    width: 100%;
+    height: auto;
+}
+
+
+#albumDescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: serif;
+    flex-direction: column;
+    padding: 12px;
+}
+
+ol{
+    margin: 30px;
+    padding: 25px 50px 25px 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    border: 1px solid black;
+}
+
+ol li{
+    padding: 10px;
+}
